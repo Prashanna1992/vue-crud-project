@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "email": "mail@gmail.com",
+      "password": "12345",
+      "username": "Prashanna",
+      "id": 1
+    },
+    {
+      "email": "sahara3g@gmail.com",
+      "password": "123456",
+      "username": "Sahara",
+      "id": 2
+    },
+    {
+      "email": "sahara3g@gmail.com",
+      "password": "12345",
+      "username": "Sahara",
+      "id": 3
+    },
+    {
+      "email": "1992Prashanna@gmail.com",
+      "password": "12345",
+      "username": "Prashanna",
+      "id": 4
+    },
+    {
+      "email": "ujjwal@gmail.com",
+      "password": "ujjwal",
+      "username": "Ujjwal",
+      "id": 5
+    }
+  ]
+}
