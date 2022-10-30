@@ -29,6 +29,12 @@
       "password": "ujjwal",
       "username": "Ujjwal",
       "id": 5
+    },
+    {
+      "email": "prashanna@gmail.com",
+      "password": "sasdasd",
+      "username": "Prashanna",
+      "id": 6
     }
   ]
 }

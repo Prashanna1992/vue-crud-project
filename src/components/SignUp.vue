@@ -7,7 +7,10 @@
         <input type="text" placeholder="Username" v-model="username">
         <input type="email" placeholder="john@doe.com" v-model="email">
         <input type="password" placeholder="Create a password" v-model="password">
-        <button @click.prevent="signUp" type="submit">Sign Up</button>
+
+        <button @click.prevent="signUp" type="submit">Sign Up</button> 
+        <router-link to="log-in" class="button">Log In</router-link>
+
     </div>
 </template>
 
@@ -49,7 +52,7 @@
         width: 200px;
     }
 
-    .register input{
+    .register input, .login input{
         display: block;
         width: 300px;
         height: 40px;
@@ -60,7 +63,7 @@
         margin-left: auto;
     }
 
-    .register button{
+    .register button, .login button{
         padding: 10px 20px 10px 20px;
         background-color: #a8e6e3;
         border-radius: 20px;
@@ -70,5 +73,19 @@
         border: 1px solid skyblue;
         background-image: linear-gradient(#c1e6e6,#a3d4f1);
         cursor: pointer;
+        margin: 0px 20px 20px 0px;
+    }
+
+    .register .button, .login .button{
+        padding: 10px 20px 10px 20px;
+        background-color: #a8e6e3;
+        border-radius: 20px;
+        box-shadow: none;
+        width: 150px;
+        height: 50px;
+        border: 1px solid skyblue;
+        background-image: linear-gradient(#c1e6e6,#a3d4f1);
+        cursor: pointer;
+        margin: 0px 20px 20px 0px;
     }
 </style>
